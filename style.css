@@ -136,15 +136,14 @@ nav a:hover {
     color: #6E6355;
 }
 
-.quote-card {
-    background: white;
-    padding: 2rem;
+.profile-img {
+    width: 100%;
+    max-width: 300px;
     border-radius: 8px;
-    text-align: center;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
-    font-family: var(--font-heading);
-    font-size: 1.2rem;
-    color: var(--accent-peach);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    display: block;
+    margin: 0 auto;
+    object-fit: cover;
 }
 
 .services {
@@ -214,7 +213,7 @@ nav a:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 2rem auto 0;
 }
 
@@ -238,14 +237,11 @@ nav a:hover {
     font-size: 0.9rem;
 }
 
-.image-placeholder {
-    background: #F5EFEB;
-    border: 2px dashed #D89B7B;
-    padding: 2.5rem 1rem;
+.gallery-img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
     border-radius: 6px;
-    color: #8C8275;
-    text-align: center;
-    font-weight: 500;
 }
 
 .contact {
